@@ -31,7 +31,7 @@ jobs:
             up-flags: -d
 
       - name: run no-users tests
-      - run:  npx playwright test tests/no-users.test.ts
+      - run:  npx playwright test tests/no-users.spec.ts
 
       - name: run remaining tests
-      - run: npx playwright test tests/user-controller.test.ts
+      - run: npx playwright test tests/user-controller.spec.ts
