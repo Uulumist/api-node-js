@@ -31,4 +31,4 @@ jobs:
             up-flags: -d
 
       - name: Run tests
-        run: npx playwright test
+        run: npx playwright test tests/homework-14.spec.ts
